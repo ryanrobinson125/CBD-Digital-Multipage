@@ -26,10 +26,19 @@
           <b-dropdown-item :to="'/social-media?segment=' + urlSegmentOne + '&help=' + urlSegmentTwo">Social Media</b-dropdown-item>
         </b-nav-item-dropdown>
         <b-nav-item to="/blog">CBD Digital Blog</b-nav-item>
-        <b-nav-item :to="'/contact-us?segment=' + urlSegmentOne + '&help=' + urlSegmentTwo">Contact Us</b-nav-item>
+        <b-nav-item :to="'/contact-us?segment=' + urlSegmentOne + '&help=' + urlSegmentTwo">Contact Us</b-nav-item>      
       </b-navbar-nav>
+       <div id="social">           
+         <network network="facebook">
+         <a style="padding: 25px 25px;" href="https://www.facebook.com/CBD-Digital-Group-562322030948807/"><i class="fa fa-facebook"></i></a>
+            </network>
+         <network network="linkedin">
+         <a href="https://www.linkedin.com/company/cbd-digital-group/"><i class="fa fa-linkedin"></i></a>
+            </network>
+      </div>
     </b-collapse>
   </b-navbar>
+  
 </template>
 
 <script>
